@@ -1,0 +1,103 @@
+{
+  "name": "Hair Medics UK",
+  "shortName": "Hair Medics",
+  "tagline": "Clinically-led hair loss treatment, delivered to your door.",
+  "description": "Home-use hair loss treatments from Hair Medics UK — minoxidil, finasteride, dutasteride, spironolactone and more, with free UK postage and prescriber-reviewed medical assessments.",
+  "url": "https://hairmedicsuk.shop",
+  "locale": "en-GB",
+  "currency": "GBP",
+  "phone": {
+    "display": "020 3441 3026",
+    "href": "tel:+442034413026"
+  },
+  "email": "info@hairmedicsuk.com",
+  "address": {
+    "lines": [
+      "Riverside House",
+      "1–5 High Street",
+      "London Colney",
+      "Hertfordshire"
+    ],
+    "postcode": "AL2 1RE",
+    "country": "United Kingdom",
+    "mapUrl": "https://maps.app.goo.gl/noEowojB13bme3rc6"
+  },
+  "social": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/hairmedicsuk",
+      "icon": "facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hairmedicsshop/",
+      "icon": "instagram"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@hairmedicsuk",
+      "icon": "tiktok"
+    },
+    {
+      "name": "Google Maps",
+      "url": "https://maps.app.goo.gl/noEowojB13bme3rc6",
+      "icon": "pin"
+    }
+  ],
+  "rating": {
+    "value": 4.9,
+    "count": 200,
+    "source": "Google"
+  },
+  "award": "Prestige Awards — Hair Transplant Clinic of the Year 2024/25",
+  "regulatory": {
+    "prescriber": {
+      "name": "Dr Bashar Alrahahleh",
+      "gmc": "7990450"
+    },
+    "pharmacy": {
+      "name": "Roseway Labs",
+      "number": "9013149"
+    },
+    "manufacturer": {
+      "name": "JLE Compounding Chemist",
+      "address": "Halte 10, 5753 SH Deurne, Netherlands"
+    },
+    "cqc": "Hair Medics UK is a brand of Skin Medics UK, which is registered with the CQC and manages the patient journey."
+  },
+  "promises": [
+    {
+      "icon": "truck",
+      "title": "Free UK postage",
+      "text": "On every order, tracked to your door."
+    },
+    {
+      "icon": "stethoscope",
+      "title": "Prescriber reviewed",
+      "text": "Medical assessments reviewed by a GMC-registered doctor."
+    },
+    {
+      "icon": "people",
+      "title": "For men & women",
+      "text": "Treatments for male and female pattern hair loss."
+    },
+    {
+      "icon": "award",
+      "title": "Award-winning team",
+      "text": "Prestige Awards hair transplant clinic of the year 2024/25."
+    }
+  ],
+  "forms": {
+    "contactEndpoint": "",
+    "assessmentEndpoint": "",
+    "note": "Set these to a secure, UK-GDPR compliant form handler (e.g. your WooCommerce/Gravity Forms endpoint) before going live. While empty, forms run in preview mode and never transmit data."
+  },
+  "featured": [
+    8545,
+    9112,
+    9118,
+    4993,
+    9088
+  ],
+  "featuredNote": "Product ids shown on the home page after bestsellers (tagged \"Best Seller\" in WooCommerce)."
+}

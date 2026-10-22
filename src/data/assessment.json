@@ -1,0 +1,114 @@
+{
+  "note": "Questions mirror the live Gravity Forms medical assessment (6 steps). Change wording here, not in templates. 'showIf' hides a question until another answer matches; 'rules' block progress with a message.",
+  "intro": "We need this questionnaire before we can supply prescription and high-strength treatments, including minoxidil, finasteride, dutasteride, spironolactone and Roseway Labs tonics. It takes about 5–10 minutes and asks about your hair loss, health, medication history and contact details so our prescriber can approve your prescription. You won’t need to repeat it for repeat orders.",
+  "steps": [
+    {
+      "id": "treatment",
+      "title": "Treatment",
+      "description": "Please answer every question honestly and in full. Your answers are treated in the strictest confidence and are only shared with the prescriber responsible for your care.",
+      "questions": [
+        {
+          "id": "treatments",
+          "type": "checkbox",
+          "label": "Which treatments are you interested in?",
+          "hint": "Select all that apply.",
+          "required": true,
+          "options": [
+            "High-strength topical minoxidil",
+            "Oral minoxidil (Loniten)",
+            "Finasteride (tablets or topical)",
+            "Dutasteride",
+            "Spironolactone",
+            "Prescription hair tonic (Roseway Labs)",
+            "I’m not sure yet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hair-loss",
+      "title": "Your hair loss",
+      "questions": [
+        { "id": "sex", "type": "radio", "label": "What was your sex at birth?", "required": true, "options": ["Male", "Female"] },
+        { "id": "diagnosis", "type": "yesno", "label": "Have you been diagnosed with a specific type of hair loss?", "required": true },
+        { "id": "diagnosisType", "type": "text", "label": "Please name the type of diagnosis", "required": true, "showIf": { "diagnosis": "Yes" } },
+        { "id": "hairElsewhere", "type": "yesno", "label": "Have you lost hair elsewhere on your body?", "required": true },
+        { "id": "itchyScalp", "type": "yesno", "label": "Do you have an itchy and/or flaky scalp?", "required": true },
+        { "id": "scalpConditions", "type": "yesno", "label": "Do you have psoriasis, a fungal infection such as ringworm, or dandruff of your scalp?", "required": true },
+        { "id": "scalpPain", "type": "yesno", "label": "Do you have any pain, burning, blistering or pus-filled spots on your scalp?", "required": true },
+        { "id": "onset", "type": "radio", "label": "When did you start losing your hair?", "required": true, "options": ["Within the last month", "More than a month ago"] },
+        { "id": "onsetType", "type": "radio", "label": "How did your hair loss start?", "required": true, "options": ["Suddenly", "Gradually"] },
+        { "id": "partnerPregnant", "type": "yesno", "label": "If applicable, is your partner pregnant or trying to get pregnant?", "required": true, "showIf": { "sex": "Male" } },
+        { "id": "pregnant", "type": "yesno", "label": "Are you pregnant or breastfeeding?", "required": true, "showIf": { "sex": "Female" } }
+      ],
+      "rules": [
+        {
+          "when": { "sex": "Female", "treatments": ["Finasteride (tablets or topical)", "Dutasteride"] },
+          "message": "Finasteride and dutasteride are only for men. Please go back to step 1 and change your treatment choice, or choose “I’m not sure yet”."
+        }
+      ]
+    },
+    {
+      "id": "medical-history",
+      "title": "Medical history",
+      "questions": [
+        { "id": "allergyMinoxidil", "type": "yesno", "label": "Are you allergic to minoxidil?", "required": true },
+        { "id": "allergySpironolactone", "type": "yesno", "label": "Are you allergic to spironolactone?", "required": true },
+        { "id": "allergies", "type": "yesno", "label": "Do you have any other known allergies?", "required": true },
+        { "id": "allergiesDetail", "type": "textarea", "label": "Please list your allergies", "required": true, "showIf": { "allergies": "Yes" } },
+        { "id": "bloodPressure", "type": "yesno", "label": "Do you have uncontrolled low or high blood pressure?", "required": true },
+        {
+          "id": "conditions",
+          "type": "yesno",
+          "label": "Do you have any of the following conditions?",
+          "hint": "Cancer; a liver condition; depression; a kidney or urinary condition; hereditary galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption.",
+          "required": true
+        },
+        { "id": "conditionsDetail", "type": "textarea", "label": "Please give details", "required": true, "showIf": { "conditions": "Yes" } },
+        { "id": "otherConditions", "type": "yesno", "label": "Apart from the above, do you have any other significant medical conditions, illnesses, hospital stays or past surgical procedures?", "required": true },
+        { "id": "otherConditionsDetail", "type": "textarea", "label": "Please give details", "required": true, "showIf": { "otherConditions": "Yes" } }
+      ]
+    },
+    {
+      "id": "medication",
+      "title": "Medication",
+      "questions": [
+        { "id": "medication", "type": "yesno", "label": "Are you currently taking any topical or oral medication?", "hint": "Including over-the-counter, prescription or recreational drugs.", "required": true },
+        { "id": "nsaids", "type": "yesno", "label": "Are you taking any non-steroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen or naproxen?", "required": true },
+        { "id": "medicationList", "type": "textarea", "label": "Please list all the medication you are currently using or taking", "required": true, "showIf": { "medication": "Yes" } }
+      ]
+    },
+    {
+      "id": "details",
+      "title": "Your details",
+      "description": "We need these to issue your prescription. We only deliver prescription treatments to UK addresses.",
+      "questions": [
+        { "id": "name", "type": "name", "label": "Your name", "required": true },
+        { "id": "email", "type": "email", "label": "Email", "required": true, "autocomplete": "email" },
+        { "id": "phone", "type": "tel", "label": "Telephone", "required": true, "autocomplete": "tel" },
+        { "id": "dob", "type": "dob", "label": "Date of birth", "hint": "For example, 27 3 1985. You must be 18 or over.", "required": true },
+        { "id": "address", "type": "address", "label": "UK address", "required": true }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Review & consent",
+      "description": "Please check your answers, then read and accept the statements below.",
+      "review": true,
+      "statements": [
+        "By agreeing to these terms, I acknowledge that my personal information will be disclosed to the prescriber responsible for approving my prescription. I understand that the prescriber may need to contact me to discuss my medical history or address any concerns related to my prescription.",
+        "I understand that I would need to take the treatment for at least 3–6 months before I see any benefit, and stopping treatment will reverse any regrowth and hair loss will resume.",
+        "I understand that my prescription is customised specifically for me and is an unlicensed medication. Unless directed otherwise, the prescriber will send this prescription directly to Compounding Lab Ltd T/A Compounding Chemist, who will compound the medication to the standards underpinned in Section 10 of the Medicines Act 1968.",
+        "I confirm that I have understood the questions asked, have answered them honestly, and that this treatment is for myself only. I understand the side effects, other treatment options available, and that I can contact the prescriber for more information.",
+        "The risks and potential side effects associated with medications have been explained to me, and I have had the opportunity to ask any questions concerning this treatment.",
+        "Medications will be delivered to the address confirmed at the time of order.",
+        "Medications will be delivered through a tracked courier service.",
+        "My confidential information will be processed and used for the above services under current data protection requirements, which may include record keeping. If I would like to change or withdraw my authorisation for any of the above services, I can contact a member of the pharmacy team on info@cchemist.com or 0203 7732 729."
+      ],
+      "questions": [
+        { "id": "consentStatements", "type": "consent", "label": "I have read and agree to the statements above.", "required": true },
+        { "id": "consentShare", "type": "consent", "label": "I am happy for Hair Medics UK to share my data with Compounding Lab Ltd (trading as Compounding Chemist) to process my prescription.", "required": true }
+      ]
+    }
+  ]
+}

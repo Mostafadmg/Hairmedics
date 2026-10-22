@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "minoxidil",
+    "name": "Minoxidil",
+    "group": "treatments",
+    "icon": "drop",
+    "strap": "Topical & oral minoxidil, from 5% to 15%",
+    "intro": "Minoxidil is believed to increase blood flow to the scalp, shortening the resting phase of the hair growth cycle and extending the growing phase — leading to thicker hair over time. We offer higher strengths such as 10% and 15% for more stubborn hair loss."
+  },
+  {
+    "slug": "finasteride",
+    "name": "Finasteride",
+    "group": "treatments",
+    "icon": "capsule",
+    "strap": "Tablets and topical finasteride for men",
+    "intro": "Finasteride is a medicine used to help treat male pattern hair loss. It works by reducing levels of dihydrotestosterone (DHT), a hormone that can contribute to the gradual thinning and miniaturisation of hair follicles. Results take time, and ongoing use is generally needed to maintain the benefits."
+  },
+  {
+    "slug": "dutasteride",
+    "legacySlug": "dutesteride",
+    "name": "Dutasteride",
+    "group": "treatments",
+    "icon": "capsule",
+    "strap": "A stronger DHT blocker for male pattern hair loss",
+    "intro": "Dutasteride reduces levels of dihydrotestosterone (DHT), a hormone involved in male pattern hair loss. By lowering DHT, it may help reduce the progression of follicle miniaturisation and support the maintenance of existing hair. Results take time, and continued treatment may be required to maintain any benefits."
+  },
+  {
+    "slug": "spironolactone",
+    "name": "Spironolactone",
+    "group": "treatments",
+    "icon": "female",
+    "strap": "Hormone-related hair loss, primarily in women",
+    "intro": "Spironolactone is a prescription medicine that may be used to support hair loss treatment by reducing the effects of certain hormones on hair follicles. It is primarily used in women with hormone-related hair loss."
+  },
+  {
+    "slug": "roseway-labs",
+    "name": "Prescription hair tonics",
+    "group": "treatments",
+    "icon": "flask",
+    "strap": "Compounded by Roseway Labs, a UK registered pharmacy",
+    "intro": "Roseway Labs provides personalised compounding pharmacy services. Their experienced pharmacists and technicians create medications tailored to individual needs — including multi-ingredient hair tonics combining minoxidil, finasteride, tretinoin and more."
+  },
+  {
+    "slug": "ketoconazole",
+    "name": "Ketoconazole",
+    "group": "treatments",
+    "icon": "shield",
+    "strap": "Antifungal shampoos, creams and tonics",
+    "intro": "Ketoconazole is an antifungal medicine used to help treat fungal and yeast-related conditions of the skin and scalp. It works by interfering with the growth of fungi, helping to reduce itching, redness, flaking and irritation."
+  },
+  {
+    "slug": "microneedling",
+    "name": "Microneedling",
+    "group": "tools",
+    "icon": "roller",
+    "strap": "Titanium derma rollers and stamps",
+    "intro": "Derma rollers and stamps create tiny micro-channels in the skin. Used as part of a scalp-care routine, microneedling may help stimulate the scalp and support the appearance of healthier, fuller-looking hair. Use carefully, according to the manufacturer’s instructions, and discuss combining treatments with a healthcare professional."
+  },
+  {
+    "slug": "laser-diode",
+    "name": "Laser devices",
+    "group": "tools",
+    "icon": "laser",
+    "strap": "Low-level laser caps and combs for home use",
+    "intro": "Low-level laser therapy devices for use at home, including diode laser caps and laser combs."
+  },
+  {
+    "slug": "hair-loss-shampoo",
+    "name": "Shampoo",
+    "group": "tools",
+    "icon": "bottle",
+    "strap": "Daily scalp care",
+    "intro": "Shampoos to support a healthy scalp as part of your hair loss routine."
+  },
+  {
+    "slug": "hair-loss-supplements",
+    "name": "Supplements",
+    "group": "tools",
+    "icon": "leaf",
+    "strap": "Capsules and home-use therapies",
+    "intro": "Supplements and home-use therapies that can sit alongside your treatment plan."
+  },
+  {
+    "slug": "minoxidil-free-products",
+    "name": "Minoxidil-free",
+    "group": "tools",
+    "icon": "sparkle",
+    "strap": "Alternatives for those who can’t use minoxidil",
+    "intro": "Hair growth products that don’t contain minoxidil."
+  },
+  {
+    "slug": "hair-transplant-deposit",
+    "name": "Consultations & deposits",
+    "group": "clinic",
+    "icon": "calendar",
+    "strap": "Book a consultation or secure your transplant date",
+    "intro": "Book a hair loss consultation or pay a deposit to secure your hair transplant date with our clinical team."
+  }
+]
