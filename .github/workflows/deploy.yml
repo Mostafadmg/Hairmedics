@@ -1,14 +1,14 @@
-# Test every push/PR. Pushes to this branch also publish the built site to
-# the `gh-pages` branch — a branch that only ever holds generated output, so
-# deployments never touch `main` (which holds a different version of the site).
+# Test every push/PR. Pushes to `main` also publish the built site to the
+# `gh-pages` branch — a branch that only ever holds generated output, so
+# source code and build files never mix.
 #
-# To serve it: Settings -> Pages -> Build and deployment -> Deploy from a
-# branch -> `gh-pages` / (root). A repository serves one branch at a time.
+# One-time setup: Settings -> Pages -> Build and deployment -> Deploy from a
+# branch -> `gh-pages` / (root).
 name: Build, test & publish to gh-pages
 
 on:
   push:
-    branches: [feat/brand-and-website]
+    branches: [main]
   pull_request:
   workflow_dispatch:
 
