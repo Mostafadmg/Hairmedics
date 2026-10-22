@@ -1,24 +1,26 @@
-# Test every push/PR; deploy main to GitHub Pages as a noindex preview.
-# One-time setup: repo Settings -> Pages -> Source: "GitHub Actions".
-name: Build, test & deploy
+# Test every push/PR. Pushes to this branch also publish the built site to
+# the `gh-pages` branch — a branch that only ever holds generated output, so
+# deployments never touch `main` (which holds a different version of the site).
+#
+# To serve it: Settings -> Pages -> Build and deployment -> Deploy from a
+# branch -> `gh-pages` / (root). A repository serves one branch at a time.
+name: Build, test & publish to gh-pages
 
 on:
   push:
-    branches: [main]
+    branches: [feat/brand-and-website]
   pull_request:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write # needed to push the gh-pages branch
 
 concurrency:
-  group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  group: gh-pages
+  cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,22 +30,26 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
-      - name: Build (sub-folder + noindex preview)
+      - name: Build (served from /<repo>/, noindex preview)
         run: npm run build
         env:
           BASE: /${{ github.event.repository.name }}/
           PREVIEW: '1'
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
 
-  deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish dist/ to the gh-pages branch
+        if: github.event_name != 'pull_request'
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          # Commit on top of the existing gh-pages history (no force push).
+          if git fetch -q --depth=1 origin gh-pages; then git reset -q --soft FETCH_HEAD; fi
+          git add -A
+          if git diff --cached --quiet; then echo "No changes to publish."; exit 0; fi
+          git commit -q -m "deploy: ${GITHUB_SHA::7} from ${GITHUB_REF_NAME}"
+          git push -q origin gh-pages
+          echo "Published ${GITHUB_SHA::7} to gh-pages."
