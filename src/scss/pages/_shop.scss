@@ -1,0 +1,25 @@
+@use '../abstracts/mixins' as *;
+
+.shop-notice { margin-bottom: var(--space-8); max-width: 820px; }
+
+.shop-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-6);
+  align-items: center;
+  margin-bottom: var(--space-5);
+
+  .field--search { flex: 1 1 280px; max-width: 520px; }
+  .field--inline .select { min-width: 200px; }
+
+  @include mq-down(sm) { .field--inline { width: 100%; .select { flex: 1; } } }
+}
+
+.shop-count { font-size: var(--fs-sm); color: var(--color-muted); margin-bottom: var(--space-4); }
+
+.related-categories {
+  margin-top: var(--space-16);
+
+  &__title { font-size: var(--fs-xl); margin-bottom: var(--space-4); font-family: var(--font-body); }
+  .chips { flex-wrap: wrap; }
+}

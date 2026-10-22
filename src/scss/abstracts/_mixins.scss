@@ -1,0 +1,48 @@
+@use 'sass:map';
+
+// Breakpoints are mobile-first: styles apply from this width UP.
+$breakpoints: (
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+);
+
+@mixin mq($name) {
+  @media (min-width: map.get($breakpoints, $name)) { @content; }
+}
+
+@mixin mq-down($name) {
+  @media (max-width: map.get($breakpoints, $name) - 0.02px) { @content; }
+}
+
+// Visible keyboard focus. Never remove outlines without replacing them.
+@mixin focus-ring($offset: 3px) {
+  outline: 3px solid var(--color-teal);
+  outline-offset: $offset;
+}
+
+@mixin visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@mixin line-clamp($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

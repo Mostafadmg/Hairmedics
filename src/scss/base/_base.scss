@@ -1,0 +1,97 @@
+@use '../abstracts/mixins' as *;
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  color: var(--color-ink-soft);
+  background: var(--color-sand);
+
+  @include mq(md) { font-size: var(--fs-md); }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-ink);
+  line-height: var(--lh-tight);
+  font-weight: 600;
+}
+
+h1,
+h2 {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: -0.015em;
+}
+
+h3,
+h4 { font-family: var(--font-body); font-weight: 700; letter-spacing: -0.01em; }
+
+a {
+  color: var(--color-teal);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+
+  &:hover { color: var(--color-teal-dark); text-decoration-thickness: 2px; }
+}
+
+:focus-visible { @include focus-ring; }
+
+::selection { background: var(--color-teal-light); color: var(--color-ink); }
+
+strong { color: var(--color-ink); font-weight: 700; }
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background: var(--color-sand-2);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+.skip-link {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  z-index: 1000;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-ink);
+  color: var(--color-white);
+  border-radius: var(--radius-sm);
+  transform: translateY(-200%);
+  transition: transform var(--duration) var(--ease);
+
+  &:focus { transform: none; color: var(--color-white); }
+}
+
+#main:focus { outline: none; }
+
+// Utilities — kept deliberately small.
+.visually-hidden { @include visually-hidden; }
+.muted { color: var(--color-muted); }
+.small { font-size: var(--fs-sm); }
+.center { text-align: center; }
+.lead { font-size: var(--fs-lg); }
+.text-success { color: var(--color-success); }
+.text-error { color: var(--color-error); }
+
+.eyebrow {
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-copper-dark);
+  margin-bottom: var(--space-3);
+
+  &--light { color: #e3a47f; }
+}
+
+.icon { flex-shrink: 0; }
+
+.rounded-image {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+}

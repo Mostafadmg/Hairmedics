@@ -1,0 +1,148 @@
+@use '../abstracts/mixins' as *;
+
+.assessment {
+  display: grid;
+  gap: var(--space-8);
+  align-items: start;
+
+  @include mq(lg) { grid-template-columns: 280px 1fr; gap: var(--space-12); }
+
+  &__aside { @include mq(lg) { position: sticky; top: calc(var(--header-h) + var(--space-6)); } }
+
+  &__facts {
+    display: none;
+    gap: var(--space-4);
+    margin-top: var(--space-8);
+    font-size: var(--fs-sm);
+
+    @include mq(lg) { display: grid; }
+    p { display: flex; gap: var(--space-3); }
+    .icon { color: var(--color-teal); margin-top: 3px; }
+  }
+
+  &__form { gap: var(--space-6); }
+  &__counter { font-size: var(--fs-sm); font-weight: 700; color: var(--color-muted); }
+  &__title { font-size: var(--fs-3xl); &:focus { outline: none; } }
+  &__description { margin-top: var(--space-3); color: var(--color-ink-soft); }
+  &__questions { display: grid; gap: var(--space-8); margin-top: var(--space-8); }
+  &__step .notice--error { margin-top: var(--space-6); }
+
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--color-line);
+
+    [data-step-next],
+    [data-step-submit] { margin-left: auto; }
+  }
+
+  &__clear { justify-self: start; }
+
+  &__done {
+    display: grid;
+    justify-items: start;
+    gap: var(--space-4);
+    grid-column: 1 / -1;
+    max-width: 720px;
+
+    > .icon { color: var(--color-success); }
+    h2 { font-size: var(--fs-3xl); }
+    &:focus { outline: none; }
+  }
+}
+
+.progress {
+  height: 6px;
+  border-radius: var(--radius-pill);
+  background: var(--color-sand-2);
+  overflow: hidden;
+
+  &__bar { display: block; height: 100%; width: 0; background: var(--color-teal); border-radius: inherit; transition: width 300ms var(--ease); }
+}
+
+.stepper {
+  @include reset-list;
+  display: flex;
+  gap: var(--space-2);
+  counter-reset: none;
+
+  @include mq(lg) { display: grid; gap: 0; }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex: 1;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--color-muted);
+
+    @include mq(lg) {
+      position: relative;
+      padding-bottom: var(--space-6);
+
+      &:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        left: 15px;
+        top: 34px;
+        bottom: 4px;
+        width: 2px;
+        background: var(--color-line);
+      }
+    }
+
+    &.is-current { color: var(--color-ink); .stepper__dot { background: var(--color-teal); border-color: var(--color-teal); color: var(--color-white); } }
+    &.is-done { color: var(--color-ink-soft); .stepper__dot { background: var(--color-teal-light); border-color: var(--color-teal-light); color: var(--color-teal); } }
+  }
+
+  &__dot {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 2px solid var(--color-line);
+    background: var(--color-white);
+    font-size: var(--fs-xs);
+    font-weight: 800;
+  }
+
+  &__label { display: none; @include mq(lg) { display: inline; } }
+
+  @include mq-down(lg) {
+    &__item { flex: 0 0 auto; }
+    &__item.is-current .stepper__label { display: inline; }
+  }
+}
+
+.statements {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  padding: var(--space-5) var(--space-5) var(--space-5) var(--space-10);
+  max-height: 320px;
+  overflow-y: auto;
+  border-radius: var(--radius-md);
+  background: var(--color-sand);
+  border: 1px solid var(--color-line);
+  font-size: var(--fs-sm);
+}
+
+.review-summary {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+
+  section { padding: var(--space-4) var(--space-5); border-radius: var(--radius-md); border: 1px solid var(--color-line); }
+  h3 { display: flex; justify-content: space-between; align-items: center; font-size: var(--fs-base); margin-bottom: var(--space-2); }
+  h3 button { font-size: var(--fs-sm); color: var(--color-teal); font-weight: 700; text-decoration: underline; min-height: 32px; }
+  dl { display: grid; gap: var(--space-2); font-size: var(--fs-sm); }
+  dl > div { display: grid; gap: 2px; @include mq(md) { grid-template-columns: 1fr 1fr; gap: var(--space-4); } }
+  dt { color: var(--color-muted); }
+  dd { margin: 0; color: var(--color-ink); font-weight: 600; }
+}

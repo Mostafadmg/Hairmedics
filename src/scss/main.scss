@@ -1,0 +1,30 @@
+// Hair Medics UK — stylesheet entry point.
+// Order matters: tokens -> base -> layout -> components -> pages.
+// Lower layers never depend on higher ones.
+
+@use 'abstracts/tokens';
+@use 'abstracts/variables';
+
+@use 'base/fonts';
+@use 'base/reset';
+@use 'base/base';
+
+@use 'layout/container';
+@use 'layout/header';
+@use 'layout/sheet';
+@use 'layout/footer';
+
+@use 'components/buttons';
+@use 'components/badges';
+@use 'components/product-card';
+@use 'components/forms';
+@use 'components/feedback';
+@use 'components/content';
+@use 'components/commerce';
+
+@use 'pages/home';
+@use 'pages/shop';
+@use 'pages/product';
+@use 'pages/assessment';
+@use 'pages/misc';
+@use 'pages/brand';

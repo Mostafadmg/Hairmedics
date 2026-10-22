@@ -1,0 +1,88 @@
+@use '../abstracts/mixins' as *;
+
+.product {
+  padding-bottom: var(--space-section);
+
+  &__inner {
+    display: grid;
+    gap: var(--space-8);
+
+    @include mq(lg) { grid-template-columns: 1fr 1fr; gap: var(--space-16); align-items: start; }
+  }
+
+  &__summary { display: grid; gap: var(--space-5); align-content: start; }
+  &__brand { font-size: var(--fs-xs); font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-copper-dark); }
+  &__title { font-size: var(--fs-3xl); margin-top: calc(var(--space-3) * -1); }
+  &__price-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2) var(--space-4); }
+  &__lead { font-size: var(--fs-base); }
+
+  &__meta,
+  &__assurances {
+    @include reset-list;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-5);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: var(--color-ink);
+
+    li { display: inline-flex; align-items: center; gap: var(--space-2); }
+    a { display: inline-flex; align-items: center; min-height: 44px; }
+    .icon { color: var(--color-teal); }
+  }
+
+  &__assurances { padding-top: var(--space-5); border-top: 1px solid var(--color-line); font-weight: 500; color: var(--color-ink-soft); }
+}
+
+.gallery {
+  @include mq(lg) { position: sticky; top: calc(var(--header-h) + var(--space-6)); }
+
+  &__main {
+    position: relative;
+    aspect-ratio: 1;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-line);
+    background: var(--color-white);
+    overflow: hidden;
+
+    img { width: 100%; height: 100%; object-fit: contain; padding: 6%; }
+  }
+
+  &__flag { position: absolute; top: var(--space-4); left: var(--space-4); }
+
+  &__thumbs { @include reset-list; display: flex; gap: var(--space-3); margin-top: var(--space-3); overflow-x: auto; }
+
+  &__thumb {
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 4px;
+    border: 2px solid var(--color-line);
+    border-radius: var(--radius-sm);
+    background: var(--color-white);
+
+    img { width: 100%; height: 100%; object-fit: contain; }
+    &[aria-pressed='true'] { border-color: var(--color-teal); }
+  }
+}
+
+.product-form {
+  display: grid;
+  gap: var(--space-5);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--color-white);
+  border: 1px solid var(--color-line);
+
+  &__buy { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+  &__submit { flex: 1 1 200px; }
+}
+
+.product-details {
+  &__inner { display: grid; gap: var(--space-10); @include mq(lg) { grid-template-columns: 1.6fr 1fr; gap: var(--space-16); } }
+  &__title { font-size: var(--fs-2xl); margin-bottom: var(--space-6); }
+  &__aside { align-self: start; padding: var(--space-2) var(--space-6); border-radius: var(--radius-lg); background: var(--color-white); border: 1px solid var(--color-line); @include mq(lg) { position: sticky; top: calc(var(--header-h) + var(--space-6)); } }
+}
+
+// Leave room for the sticky add-to-basket bar on small screens.
+.page--product { @include mq-down(lg) { padding-bottom: 76px; } }
