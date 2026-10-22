@@ -1,0 +1,1202 @@
+{
+  "note": "AI recreated from original product imagery. 4K files are upscaled exports, not native 4K generations. Supplied product labels and clinical instructions are authoritative.",
+  "images": [
+    {
+      "productId": 17361,
+      "name": "Minoxidil 15% + Finasteride 0.1% Hair Growth Solution (100ml) 3 month supply",
+      "view": 1,
+      "file": "assets/products/17361.webp",
+      "download": "assets/4k/17361.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Minoxidil-15-Finasteride-0.1-Hair-Growth-Solution-–-100ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17358,
+      "name": "Ketoconazole 2% + Spironolactone 2% Hair Tonic (100ml) 3 month supply",
+      "view": 1,
+      "file": "assets/products/17358.webp",
+      "download": "assets/4k/17358.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Ketoconazole-2-Spironolactone-.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17356,
+      "name": "Minoxidil 5% & Spironolactone 2% Hair Growth Tonic (100ml) 3 month supply",
+      "view": 1,
+      "file": "assets/products/17356.webp",
+      "download": "assets/4k/17356.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Minoxidil-5-Spironolactone-2.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17355,
+      "name": "Spironolactone 1% Hair Loss Tonic (100ml) 3 month supply",
+      "view": 1,
+      "file": "assets/products/17355.webp",
+      "download": "assets/4k/17355.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Spironolactone-1-Hair-Loss-Tonic.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17350,
+      "name": "Finasteride 0.1% Topical Hair Loss Solution (100ml) · 3 month supply",
+      "view": 1,
+      "file": "assets/products/17350.webp",
+      "download": "assets/4k/17350.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Finasteride-0.1-Topical-Hair-Loss-Solution.png",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17348,
+      "name": "Minoxidil 10% + Finasteride 0.1% Hair Loss Treatment – 100ml",
+      "view": 1,
+      "file": "assets/products/17348.webp",
+      "download": "assets/4k/17348.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Minoxidil-10-Finasteride-0.1.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17346,
+      "name": "Minoxidil 5% + Finasteride 0.1% Hair Growth Solution 100ml, 3-Month supply",
+      "view": 1,
+      "file": "assets/products/17346.webp",
+      "download": "assets/4k/17346.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Minoxidil-5-Finasteride-0.1.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17344,
+      "name": "Finasteride 0.25% Topical Hair Tonic – 100ml | 3 Month Supply",
+      "view": 1,
+      "file": "assets/products/17344.webp",
+      "download": "assets/4k/17344.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Finasteride-0.25.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17280,
+      "name": "Roseway Labs Hair Tonic – Minoxidil 5% + Medroxyprogesterone 0.0125% Hair Tonic – 100ml",
+      "view": 1,
+      "file": "assets/products/17280.webp",
+      "download": "assets/4k/17280.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Minoxidil-5-Medroxyprogesterone-0.0125-Hair-Tonic-–-100ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17262,
+      "name": "Roseway Labs Hair Tonic – Minoxidil 7% + Saw Palmetto 5% + Tretinoin 0.01% | 100ml",
+      "view": 1,
+      "file": "assets/products/17262.webp",
+      "download": "assets/4k/17262.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Minoxidil-7-Saw-Palmetto-5-Tretinoin-0.01-100ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17259,
+      "name": "Roseway Labs Hair Tonic – Minoxidil 5% + Tretinoin 0.01% + Azelaic Acid 2% | 100ml",
+      "view": 1,
+      "file": "assets/products/17259.webp",
+      "download": "assets/4k/17259.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/Roseway-Labs-Hair-Tonic-–-Minoxidil-5-Tretinoin-0.01-Azelaic-Acid-2-100ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17257,
+      "name": "Roseway Labs Hair Tonic – 15% Minoxidil Hair Tonic with Tretinoin & Azelaic Acid – 100ml",
+      "view": 1,
+      "file": "assets/products/17257.webp",
+      "download": "assets/4k/17257.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/10/15-Minoxidil-Hair-Tonic-with-Tretinoin-Azelaic-Acid-–-100ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17228,
+      "name": "Roseway Labs Hair Tonic – Minoxidil 5% • Finasteride 0.25% • Tretinoin 0.01% (100ml)",
+      "view": 1,
+      "file": "assets/products/17228.webp",
+      "download": "assets/4k/17228.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Roseway-Labs-Hair-Tonic-2.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17226,
+      "name": "Roseway Labs Hair Tonic – Minoxidil 5% + Finasteride 0.1% + Tretinoin 0.01% Hair Tonic – 100ml",
+      "view": 1,
+      "file": "assets/products/17226.webp",
+      "download": "assets/4k/17226.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Minoxidil-5-Finasteride-0.1-Tretinoin-0.01-Hair-Tonic-–-100ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17224,
+      "name": "Roseway Labs Hair Tonic – Advanced Triple-Ingredient Formula (100ml)",
+      "view": 1,
+      "file": "assets/products/17224.webp",
+      "download": "assets/4k/17224.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Roseway-Labs-Hair-Tonic.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17159,
+      "name": "Nizoral anti-dandruff treatment 2% Ketoconazole shampoo 60ml",
+      "view": 1,
+      "file": "assets/products/17159.webp",
+      "download": "assets/4k/17159.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Nizoral-anti-dandruff-treatment-2-Ketoconazole-shampoo-60ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17160,
+      "name": "Nizoral Ketoconazole 2% antifungal cream 30g",
+      "view": 1,
+      "file": "assets/products/17160.webp",
+      "download": "assets/4k/17160.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Nizoral-Ketoconazole-2-antifungal-cream-30g.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17095,
+      "name": "Spironolactone for Female Pattern Hair Loss",
+      "view": 1,
+      "file": "assets/products/17095.webp",
+      "download": "assets/4k/17095.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Spironolactone-for-Female-Pattern-Hair-Loss.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17075,
+      "name": "Finasteride 1 mg Tablets – 28 Tablets (4-16 weeks supply)",
+      "view": 1,
+      "file": "assets/products/17075.webp",
+      "download": "assets/4k/17075.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Finasteride-1-mg-Tablets.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17067,
+      "name": "Finasteride 5 mg Tablets – 28 Tablets (4 weeks supply)",
+      "view": 1,
+      "file": "assets/products/17067.webp",
+      "download": "assets/4k/17067.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Finasteride-5mg.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17065,
+      "name": "Dutasteride 0.5 mg Soft Capsules (4 weeks supply)",
+      "view": 1,
+      "file": "assets/products/17065.webp",
+      "download": "assets/4k/17065.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Dutasteride-0.5-mg-Soft-Capsules-4-weeks-supply.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17063,
+      "name": "Loniten® Minoxidil 2.5mg Tablets – 60 Tablets",
+      "view": 1,
+      "file": "assets/products/17063.webp",
+      "download": "assets/4k/17063.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Loniten®-Minoxidil-2.5mg-Tablets-.png",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17061,
+      "name": "Loniten 5mg Tablets (Minoxidil) – Oral Hair Loss Treatment (60 tablets)",
+      "view": 1,
+      "file": "assets/products/17061.webp",
+      "download": "assets/4k/17061.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Loniten-5mg-Tablets-Minoxidil-–-Oral-Hair-Loss-Treatment-60-tablets.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 17057,
+      "name": "Roseway Labs Dutasteride 0.5mg / Minoxidil 2.5mg Tablets",
+      "view": 1,
+      "file": "assets/products/17057.webp",
+      "download": "assets/4k/17057.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/09/Roseway-Labs-Dutasteride-0.5mg-_-Minoxidil-2.5mg-Tablets.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 16538,
+      "name": "Hair Loss Consultation",
+      "view": 1,
+      "file": "assets/products/16538.webp",
+      "download": "assets/4k/16538.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/06/Hair-Loss-Consultation.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 16461,
+      "name": "Hair Transplant Deposit",
+      "view": 1,
+      "file": "assets/products/16461.webp",
+      "download": "assets/4k/16461.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2026/06/Hair-Transplant-Deposit.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 12976,
+      "name": "12% minoxidil with Trichosol™️ (60ml)",
+      "view": 1,
+      "file": "assets/products/12976.webp",
+      "download": "assets/4k/12976.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2025/01/12-minoxidil-with-Trichosol.jpeg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 12888,
+      "name": "10% minoxidil with Trichosol (60 ml)",
+      "view": 1,
+      "file": "assets/products/12888.webp",
+      "download": "assets/4k/12888.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2025/01/10-minoxidil-with-Trichosol-60-ml.jpeg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 13613,
+      "name": "Anti Hair Loss Capsules Hair-Ceuticals",
+      "view": 1,
+      "file": "assets/products/13613.webp",
+      "download": "assets/4k/13613.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2025/04/Anti-Hair-Loss-Capsules-Hair-Ceuticals-1.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 11833,
+      "name": "Tricho-Gen+ Rapid Hair Growth Stimulation 60ml",
+      "view": 1,
+      "file": "assets/products/11833.webp",
+      "download": "assets/4k/11833.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/08/Tricho-Gen-Rapid-Hair-Growth-Stimulation-60ml.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 11382,
+      "name": "Adjustable Microneedling Derma Stamp – 140 Titanium Pins Professional Microneedle Dermapen for Hair and Beard Growth",
+      "view": 1,
+      "file": "assets/products/11382.webp",
+      "download": "assets/4k/11382.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/06/Adjustable-Microneedling-Derma-Stamp.png",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 11382,
+      "name": "Adjustable Microneedling Derma Stamp – 140 Titanium Pins Professional Microneedle Dermapen for Hair and Beard Growth",
+      "view": 2,
+      "file": "assets/products/11382-2.webp",
+      "download": "assets/4k/11382-2.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/06/Adjustable-Microneedling-Derma-Stamp.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 11382,
+      "name": "Adjustable Microneedling Derma Stamp – 140 Titanium Pins Professional Microneedle Dermapen for Hair and Beard Growth",
+      "view": 3,
+      "file": "assets/products/11382-3.webp",
+      "download": "assets/4k/11382-3.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/06/Adjustable-Microneedling-Derma-Stamp-2.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 11382,
+      "name": "Adjustable Microneedling Derma Stamp – 140 Titanium Pins Professional Microneedle Dermapen for Hair and Beard Growth",
+      "view": 4,
+      "file": "assets/products/11382-4.webp",
+      "download": "assets/4k/11382-4.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/06/Adjustable-Microneedling-Derma-Stamp-3.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 11286,
+      "name": "E50 Exosomes (Stem Cell Activated) Hair Treatment Therapy Home Use",
+      "view": 1,
+      "file": "assets/products/11286.webp",
+      "download": "assets/4k/11286.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/06/E-50-Exosome-Home-Use.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 11106,
+      "name": "120Pin Bio Needle Derma Stamp For Hair Growth, Adjustable Needle Length Microneedling",
+      "view": 1,
+      "file": "assets/products/11106.webp",
+      "download": "assets/4k/11106.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/05/120Pin-Bio-Needle-Derma-Stamp-For-Hair-Growth-Skin-Adjustable-Needle-Length-Microneedling.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 10576,
+      "name": "I-Helmet Laser Hair Growth Comb",
+      "view": 1,
+      "file": "assets/products/10576.webp",
+      "download": "assets/4k/10576.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/03/i-helmet3.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 10576,
+      "name": "I-Helmet Laser Hair Growth Comb",
+      "view": 2,
+      "file": "assets/products/10576-2.webp",
+      "download": "assets/4k/10576-2.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/03/i-helmet-5.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 10576,
+      "name": "I-Helmet Laser Hair Growth Comb",
+      "view": 3,
+      "file": "assets/products/10576-3.webp",
+      "download": "assets/4k/10576-3.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/03/i-helmet2.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 10032,
+      "name": "Minocream Minoxidil Hair Cream (5% or 10%) 50g",
+      "view": 1,
+      "file": "assets/products/10032.webp",
+      "download": "assets/4k/10032.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2024/01/Minocream-Minoxidil-Hair-Cream-5-10-or-15-50g.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9428,
+      "name": "Spironolactone 1% Solution x 60ml(60 day supply)",
+      "view": 1,
+      "file": "assets/products/9428.webp",
+      "download": "assets/4k/9428.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/09/F14D671F-4B4E-4DC0-AB6E-B5049522EAD9.jpeg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9418,
+      "name": "Minoxidil 5%/ Melatonin 0.1% Solution x 60ml (30 day supply)",
+      "view": 1,
+      "file": "assets/products/9418.webp",
+      "download": "assets/4k/9418.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/09/40858D5F-DB26-4D36-A884-EB775257504A.jpeg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9405,
+      "name": "Minoxidil 5%/ Spironolactone 2% Solution x 60ml (60 day supply)",
+      "view": 1,
+      "file": "assets/products/9405.webp",
+      "download": "assets/4k/9405.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/09/77336E81-E759-4D52-8512-115D1FAAF21D.jpeg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9400,
+      "name": "Minoxidil 5% Solution (No Alcohol) x 60ml (30 day supply)",
+      "view": 1,
+      "file": "assets/products/9400.webp",
+      "download": "assets/4k/9400.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/09/609DE45A-036A-44F4-A0BF-44446BE2837B.jpeg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9309,
+      "name": "Topical Ketoconazole + Spironolactone 2%",
+      "view": 1,
+      "file": "assets/products/9309.webp",
+      "download": "assets/4k/9309.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/08/Topical-Ketoconazole-Spirolcatone-2-scaled.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9112,
+      "name": "5% minoxidil No PG + Azelaic Acid + Caffeine + Retinol",
+      "view": 1,
+      "file": "assets/products/9112.webp",
+      "download": "assets/4k/9112.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/07/D8D8052F-809A-4514-A411-FFE8494790C4.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9118,
+      "name": "10% minoxidil No PG + Azelaic Acid + Caffeine + Retinol",
+      "view": 1,
+      "file": "assets/products/9118.webp",
+      "download": "assets/4k/9118.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/07/0E0ABC92-837B-450F-947E-D4D944509D12.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9123,
+      "name": "15% minoxidil No PG + Azelaic Acid + Caffeine + Retinol",
+      "view": 1,
+      "file": "assets/products/9123.webp",
+      "download": "assets/4k/9123.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/07/ABACD095-FD2A-43AD-8E35-BAE8E5A74F36.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9140,
+      "name": "5% minoxidil – Fast Dry Spray With Azelaic Acid",
+      "view": 1,
+      "file": "assets/products/9140.webp",
+      "download": "assets/4k/9140.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/07/9B35FCCF-B001-4CAA-B193-2974DEB872F5.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9092,
+      "name": "7.5% minoxidil – Fast Dry Spray With Azelaic Acid",
+      "view": 1,
+      "file": "assets/products/9092.webp",
+      "download": "assets/4k/9092.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/07/85646E23-622E-40B7-81DA-0AD0989FF0A7.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 9088,
+      "name": "10% minoxidil – Fast Dry Spray With Azelaic Acid",
+      "view": 1,
+      "file": "assets/products/9088.webp",
+      "download": "assets/4k/9088.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/07/14FE3EC2-115B-48A6-9EF3-686E80CACDA3.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 8545,
+      "name": "5% minoxidil Pg + Azelaic Acid + Caffeine + Retinol",
+      "view": 1,
+      "file": "assets/products/8545.webp",
+      "download": "assets/4k/8545.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/02/566E0778-3930-4551-A252-DF98D5458D0F.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 8540,
+      "name": "10% minoxidil with Pg + Azelaic Acid + Caffeine + Retinol",
+      "view": 1,
+      "file": "assets/products/8540.webp",
+      "download": "assets/4k/8540.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/02/803DACE4-8DBD-4F2D-AC3E-89D1D031777C.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 8532,
+      "name": "15% minoxidil with Pg + Azelaic Acid + Retinol + Caffeine",
+      "view": 1,
+      "file": "assets/products/8532.webp",
+      "download": "assets/4k/8532.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2023/02/F808122C-3009-40A3-AF36-1D7FEADAE60A.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 6681,
+      "name": "Hair Medics UK 200 Diode Laser Cap",
+      "view": 1,
+      "file": "assets/products/6681.webp",
+      "download": "assets/4k/6681.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2021/09/2853146c-ea11-4773-80b1-b361132713d3.jpeg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 900,
+        "height": 900
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 4993,
+      "name": "Hair Medics UK Titanium Derma Roller",
+      "view": 1,
+      "file": "assets/products/4993.webp",
+      "download": "assets/4k/4993.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2020/07/box-mockup-white.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1200,
+        "height": 1200
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    },
+    {
+      "productId": 2576,
+      "name": "Hair Medics UK Shampoo",
+      "view": 1,
+      "file": "assets/products/2576.webp",
+      "download": "assets/4k/2576.webp",
+      "sourceUrl": "https://hairmedicsuk.shop/wp-content/uploads/2019/12/shampoo.jpg",
+      "native": {
+        "width": 1254,
+        "height": 1254
+      },
+      "web": {
+        "width": 1000,
+        "height": 1000
+      },
+      "export": {
+        "width": 4096,
+        "height": 4096,
+        "upscaled": true
+      }
+    }
+  ]
+}
