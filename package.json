@@ -1,0 +1,33 @@
+{
+  "name": "hairmedics-uk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hair Medics UK — brand system and static storefront (vanilla JS + SCSS, data-driven build).",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "serve": "serve dist -l 4173",
+    "logo": "node scripts/build-logo.mjs",
+    "test": "node --test tests/*.test.js",
+    "qa": "node tests/qa-pages.mjs && node tests/qa-flows.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "lucide-static": "^1.61.0",
+    "marked": "^18.1.1",
+    "opentype.js": "^2.0.0",
+    "playwright": "^1.56.1",
+    "sass": "^1.106.1",
+    "serve": "^14.2.6",
+    "sharp": "^0.35.5",
+    "simple-icons": "^16.35.0",
+    "turndown": "^7.2.4"
+  }
+}
