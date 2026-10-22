@@ -18,7 +18,7 @@ Checked the original site and the redesign in local headless Chromium. Tests use
 - Every route returns HTTP 200, contains one H1, and has no JavaScript page exceptions or horizontal page overflow at these sizes.
 - Search, category filters, price/name sorting, empty results, product price options, links to the secure shop, contact links, FAQ expansion and mobile navigation were exercised in the browser.
 - Product1/3/6bottle choices show the correct £39.99/£94.99/£154.99 prices and hand the selected option to the original product URL.
-- Direct product URLs and navigation were checked beneath the GitHub Pages project prefix `/hairmedics-uk/`.
+- Direct product URLs and navigation were checked beneath the original project prefix `/hairmedics-uk/`, then retested at the final `/Hairmedics/` prefix. The final 15 targeted checks passed across desktop, tablet and mobile; all 90 sitemap URLs match the repository. See `DEPLOYMENT-QA.md`.
 - Mobile headline clipping was fixed. 320px/360px category strip spacing was corrected.
 - Source policy/product HTML has no scripts, embedded forms, iframes, event-handler attributes or JavaScript URLs.
 - All 57 web product/gallery images and 57 square 4K exports passed HTTP and dimension checks. Gallery thumbnails, SVG downloads, and password reset were verified at all three main screen sizes.
